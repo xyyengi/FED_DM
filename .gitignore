@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+*.egg
+dist/
+build/
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Trained model checkpoints (large binary files)
+checkpoints/*.pth
+
+# Generated results (large pickle files)
+results/*.pkl
+results/figures/
+
+# Data splits (reproducible from my_fed_data.csv via data/explore_and_preprocess.py)
+data/train.pkl
+data/val.pkl
+data/test.pkl
+
+# OS
+.DS_Store
+Thumbs.db

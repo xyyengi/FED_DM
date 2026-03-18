@@ -1,14 +1,21 @@
-absl-py==1.2.0
-einops==0.4.1
-h5py==3.7.0
-keopscore==2.1
-opt-einsum==3.3.0
-pandas==1.4.2 
-pytorch-wavelet 
-PyWavelets==1.4.1
-scikit-image==0.19.3
-scikit-learn==1.0.2
-scipy==1.7.3
-statsmodels==0.13.2
-sympy==1.11.1
-torch==1.9.0
+# ── core framework ───────────────────────────────────────────────────────
+torch>=1.13.0
+torchvision
+
+# ── scientific stack ─────────────────────────────────────────────────────
+numpy>=1.21
+pandas>=1.4.0
+scikit-learn>=1.0.0
+scipy>=1.7.0
+statsmodels>=0.13.0
+matplotlib>=3.5.0
+
+# ── signal / wavelet processing ──────────────────────────────────────────
+PyWavelets>=1.4.0
+pytorch-wavelets
+
+# ── time-series transformer dependencies ─────────────────────────────────
+einops>=0.4.0
+
+# ── optional / k-diffusion ───────────────────────────────────────────────
+tqdm
